@@ -1,0 +1,8 @@
+{
+  "jumpscare": {
+    "sounds": ["quicktroll:jumpscare"]
+  },
+  "usb_disconnect": {
+    "sounds": ["quicktroll:usb_disconnect"]
+  }
+}

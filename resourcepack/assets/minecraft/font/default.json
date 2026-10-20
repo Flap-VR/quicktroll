@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/jumpscare.png",
+      "ascent": 61,
+      "height": 128,
+      "chars": ["\uE000"]
+    }
+  ]
+}
