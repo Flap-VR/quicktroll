@@ -1,0 +1,26 @@
+name: QuickTroll
+version: 1.0.0
+main: dev.quicktroll.QuickTroll
+api-version: '1.21'
+description: Troll menu for staff
+commands:
+  trollmenu:
+    description: Open the troll menu
+    aliases: [troll]
+permissions:
+  quicktroll.menu:
+    description: Open /trollmenu
+    default: op
+  quicktroll.jumpscare:
+    default: op
+  quicktroll.kick:
+    default: op
+  quicktroll.keyboard:
+    default: op
+  quicktroll.announce:
+    default: op
+  quicktroll.takeover:
+    default: op
+  quicktroll.exempt:
+    description: Can't be targeted by troll actions
+    default: false

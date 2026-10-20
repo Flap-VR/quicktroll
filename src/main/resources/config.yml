@@ -1,0 +1,51 @@
+# QuickTroll config (Spigot 1.21.11, no Paper-only code)
+# Colors use & codes. Delete this file once when you update the plugin so new lines get generated.
+
+jumpscare:
+  # The title text shown to the player. "\uE000" is the custom glyph from the resource pack
+  # (see resourcepack/README.txt). Without the pack it just shows a blank/box character.
+  glyph: "\uE000"
+  duration-ticks: 40
+  # Custom sound from the resource pack (put your own .ogg in the pack). Empty = off.
+  sound: "quicktroll:jumpscare"
+  # Plays at the same time. Set to "" once your resource pack sound works.
+  fallback-sound: "entity.warden.sonic_boom"
+  # Plays the sound this many times at once to make it louder
+  repeat: 4
+
+kick:
+  reason: "Lol Bye Bye"
+
+announce:
+  format: "&6&lANNOUNCEMENT &8>> &f{message}"
+  # Also show it as a title on screen
+  title: true
+
+takeover:
+  duration-seconds: 30
+  cooldown-seconds: 60
+
+messages:
+  no-permission: "&cYou don't have permission for that."
+  players-only: "Players only."
+  player-offline: "&cThat player is no longer online."
+  target-exempt: "&cYou can't troll that player."
+  no-players: "&cNobody else is online."
+  jumpscared: "&aJumpscared &f{player}&a."
+  kicked: "&aKicked &f{player}&a."
+  keyboard-done: "&aDisconnected &f{player}&a's keyboard. It stays that way until they leave and rejoin."
+  keyboard-already: "&c{player}'s keyboard is already disconnected."
+  announce-prompt: "&eType your announcement in chat. Type &fcancel &eto cancel."
+  announce-cancelled: "&cAnnouncement cancelled."
+  announce-sent: "&aAnnouncement sent to &f{count} &aplayer(s)."
+  takeover-cooldown: "&cTakeover is on cooldown for another {seconds}s."
+  takeover-busy: "&cYou are already taking over someone."
+  takeover-target-busy: "&cThat player can't be taken over right now."
+  takeover-failed: "&cCouldn't take over that player."
+  takeover-start: "&aYou are now controlling &f{player}&a. &7WASD + look = steer, right-click (holding an item) = inventory, right-click an ender chest = their ender chest, F = kill, Shift = exit."
+  takeover-actionbar: "&eControlling {player} &7- &f{seconds}s left"
+  takeover-timeup: "&eTakeover over: time's up."
+  takeover-exited: "&eYou left their body."
+  takeover-target-died: "&eTakeover over: they died."
+  takeover-target-left: "&eTakeover over: a player left."
+  takeover-killed: "&cYou killed them."

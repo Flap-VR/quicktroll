@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "quicktroll:font/jumpscare.png",
+      "ascent": 70,
+      "height": 128,
+      "chars": ["\uE000"]
+    }
+  ]
+}
